@@ -1,2 +1,1 @@
-# xiangqi-chess-game
-terminal game with basic GUI in OCaml
+# CS3110-project

@@ -1,0 +1,65 @@
+### Starting build.
+# Target: main.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:main.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules main.mli > main.mli.depends
+# Target: main.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:main.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o main.cmi main.mli
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:main.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules main.ml > main.ml.depends
+# Target: ai.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:ai.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules ai.mli > ai.mli.depends
+# Target: board.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:board.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules board.mli > board.mli.depends
+# Target: piece.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:piece.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules piece.mli > piece.mli.depends
+# Target: piece.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:piece.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o piece.cmi piece.mli
+# Target: state.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:state.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules state.mli > state.mli.depends
+# Target: board.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:board.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o board.cmi board.mli
+# Target: state.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:state.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o state.cmi state.mli
+# Target: command.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:command.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules command.mli > command.mli.depends
+# Target: ai.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:ai.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o ai.cmi ai.mli
+# Target: command.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:command.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o command.cmi command.mli
+# Target: main.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o main.cmo main.ml
+# Target: ai.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:ai.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules ai.ml > ai.ml.depends
+# Target: mlearn.mli.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:mli, file:mlearn.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules mlearn.mli > mlearn.mli.depends
+# Target: mlearn.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:mli, file:mlearn.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o mlearn.cmi mlearn.mli
+# Target: board.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:board.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules board.ml > board.ml.depends
+# Target: command.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:command.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules command.ml > command.ml.depends
+# Target: piece.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:piece.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules piece.ml > piece.ml.depends
+# Target: state.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:state.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules state.ml > state.ml.depends
+# Target: ai.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:ai.cmo, file:ai.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o ai.cmo ai.ml
++ ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o ai.cmo ai.ml
+File "ai.ml", line 159, characters 8-13:
+159 |     let piece =
+              ^^^^^
+Warning 26: unused variable piece.
+# Target: board.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:board.cmo, file:board.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o board.cmo board.ml
+# Target: command.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:command.cmo, file:command.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o command.cmo command.ml
+# Target: piece.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:piece.cmo, file:piece.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o piece.cmo piece.ml
+# Target: state.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:state.cmo, file:state.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o state.cmo state.ml
+# Target: mlearn.ml.depends, tags: { package(ANSITerminal), package(ounit2), debug, extension:ml, file:mlearn.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules mlearn.ml > mlearn.ml.depends
+# Target: mlearn.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, debug, extension:cmo, extension:ml, file:mlearn.cmo, file:mlearn.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -package ounit2 -package ANSITerminal -o mlearn.cmo mlearn.ml
+# Target: main.byte, tags: { package(ANSITerminal), package(ounit2), byte, debug, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -g -package ounit2 -package ANSITerminal piece.cmo board.cmo state.cmo mlearn.cmo ai.cmo command.cmo main.cmo -o main.byte
+# Compilation successful.

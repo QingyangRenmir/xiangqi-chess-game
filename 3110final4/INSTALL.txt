@@ -1,0 +1,5 @@
+Type "make play" to start the game!
+
+p.s. It's normal to take around 70s to initialize the game, 
+It goes through a very large search space across the chess board 
+over a large datasets containing game records of 1000 games
